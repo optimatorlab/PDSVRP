@@ -1,0 +1,12 @@
+problemName,problemType,numCustomers,UAVspeed,UAVendurance,numTrucks,numUAVs,solverType,heuristicSwitch,timeLimit,numNodesExplored,LPrelaxationBound,lowerBound,objVal,isOptimal,runTime,numTruckCust,numUAVcust,initialHeuristicSoln,finalBnBlowerBound,finalBnBobjVal,finalBnBrunTime,finalBnBnumTruckCust,finalBnBnumUAVcust
+20140813T111813,small,10,-,30.000000,1,4,BNP,0,1800,1,102.202,inf,102.202,1,0.232,6,4,105.082,-,-,-,-,-
+
+
+BNP SOLUTION:
+
+Truck tours:
+0,10,3,7,2,1,5,11
+
+UAV tours:
+6,8,9
+4
