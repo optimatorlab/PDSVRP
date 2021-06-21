@@ -1,7 +1,8 @@
 # The parallel drone scheduling vehicle routing problem (PDSVRP)
 This repository provides a collection of test problems, as well as their solutions, for the PDSVRP. The PDSVRP is a variant of the VRP in which multiple UAVs operate in parallel with a number of trucks to deliver parcels in the minimum time.
 The repository accompanies the following paper, which is currently under review:
-> R. Raj, D. Lee, S. Lee, J. Walteros, C. Murray. A branch-and-price approach for the parallel drone scheduling vehicle routing problem. Available at SSRN: _____
+> R. Raj, D. Lee, S. Lee, J. Walteros, C. Murray. A branch-and-price approach for the parallel drone scheduling vehicle routing problem. Available at SSRN:
+
 The paper provides details on the PDSVRP definition, and a branch-and-price algorithm as a solution approach.
 ---- 
 ## PDSVRP Repository Contents
