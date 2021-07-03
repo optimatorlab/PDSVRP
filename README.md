@@ -1,7 +1,7 @@
 # The parallel drone scheduling vehicle routing problem (PDSVRP)
 This repository provides a collection of test problems, as well as their solutions, for the PDSVRP. The PDSVRP is a variant of the VRP in which multiple UAVs operate in parallel with a number of trucks to deliver parcels in the minimum time.
 The repository accompanies the following paper, which is currently under review:
-> R. Raj, D. Lee, S. Lee, J. Walteros, C. Murray. A branch-and-price approach for the parallel drone scheduling vehicle routing problem. Available at SSRN:_____
+> R. Raj, D. Lee, S. Lee, J. Walteros, C. Murray. A branch-and-price approach for the parallel drone scheduling vehicle routing problem. Available at SSRN: https://ssrn.com/abstract=3879710
 
 The paper provides details on the PDSVRP definition, and a branch-and-price algorithm as a solution approach.
 
@@ -19,7 +19,7 @@ This repository contains **test problems** with their **solutions** inside the [
 
 3. The directory [`Large_scale_problems`](Problems/Large_scale_problems) contains 6 files, each of which corresponds to a large-scale problem instance. The first number in each instance file name represents the number of customers. Each instance file contains 4 columns. The first column represents the node number, the next two columns are x- and y-coordinates of the node, and the last column indicates whether the customer-node is a truck-only customer. The lowest and highest node numbers correspond to the depot and the remaining node numbers correspond to customers. For these instances, truck travel times are calculated by assuming Manhattan paths for trucks and Euclidean distances for UAVs, and assuming the UAV speed to be twice as much as the truck speed.
 
-4. [`performance_summary_PDSVRP.csv`](Problems/performance_summary_PDSVRP.csv) provides information about solutions generated for each test problem in the [PDSVRP paper](______). This file contains the following columns:
+4. [`performance_summary_PDSVRP.csv`](Problems/performance_summary_PDSVRP.csv) provides information about solutions generated for each test problem in the [PDSVRP paper](https://ssrn.com/abstract=3879710). This file contains the following columns:
 - `problemName` - The name of the problem instance.  This is either a subdirectory name within the [`10_customer_problems`](Problems/10_customer_problems) and [`20_customer_problems`](Problems/20_customer_problems) directories or a filename within the [`Large_scale_problems`](Problems/Large_scale_problems) directory.
 - `problemType` - Indicates whether the problem instance is small- or large-scale.
 - `numCustomers` - The total number of customers.
