@@ -1,0 +1,13 @@
+problemName,problemType,numCustomers,UAVspeed,UAVendurance,numTrucks,numUAVs,solverType,heuristicSwitch,timeLimit,numNodesExplored,LPrelaxationBound,lowerBound,objVal,isOptimal,runTime,numTruckCust,numUAVcust,initialHeuristicSoln,finalBnBlowerBound,finalBnBobjVal,finalBnBrunTime,finalBnBnumTruckCust,finalBnBnumUAVcust
+20140813T125143,small,20,-,30.000000,1,4,DFJ,-,1800,-,27.3789,76.6395,76.6395,1,1.031,11,9,-,-,-,-,-,-
+
+
+DFJ SOLUTION:
+
+Truck tours:
+0,14,5,1,16,3,2,12,13,11,19,4,21
+
+UAV tours:
+6,7,8,9,15
+17,18,20
+10
